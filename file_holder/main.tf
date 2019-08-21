@@ -1,8 +1,8 @@
-resource "azurerm_resource_group" "test" {
-  name     = "testResourceGroup1"
+resource "azurerm_resource_group" "demo" {
+  name     = "ThisisatestRG_TF"
   location = "West US"
 
   tags = {
-    environment = "Production"
+    environment = "QA"
   }
 }
