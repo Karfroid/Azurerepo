@@ -7,3 +7,30 @@ resource "azurerm_resource_group" "demo" {
   }
 }
 
+resource "azurerm_resource_group" "demo1" {
+  name     = "ThisisatestRG_TF1"
+  location = "West US"
+
+  tags = {
+    environment = "QA"
+  }
+}
+
+resource "azurerm_resource_group" "demo2" {
+  name     = "ThisisatestRG_TF2"
+  location = "West US"
+
+  tags = {
+    environment = "QA"
+  }
+}
+
+resource "azurerm_resource_group" "demo3" {
+  name     = "ThisisatestRG_TF3"
+  location = "West US"
+
+  tags = {
+    environment = "QA"
+  }
+}
+
