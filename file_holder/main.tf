@@ -12,7 +12,7 @@ resource "azurerm_resource_group" "demo1" {
   location = "West US"
 
   tags = {
-    environment = "QA"
+    environment = "dev"
   }
 }
 
