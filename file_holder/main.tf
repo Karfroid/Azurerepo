@@ -30,7 +30,7 @@ resource "azurerm_resource_group" "demo3" {
   location = "West US"
 
   tags = {
-    environment = "Prod"
+    environment = "Prod1"
   }
 }
 
